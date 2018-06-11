@@ -1,3 +1,8 @@
 target/
 .idea
 *.iml
+.DS_Store
+mvnw.bat
+mvnw.cmd
+mvnw
+.mvn/
