@@ -14,12 +14,12 @@ import java.util.List;
 import java.util.stream.Stream;
 
 @Service
-public class FakeStoragetService implements StorageService {
+public class FakeStorageService implements StorageService {
     private List<File> files;
     private ResourceLoader resourceLoader;
 
     @Autowired
-    public FakeStoragetService(ResourceLoader resourceLoader) {
+    public FakeStorageService(ResourceLoader resourceLoader) {
         this.resourceLoader = resourceLoader;
         files = new ArrayList<>();
     }

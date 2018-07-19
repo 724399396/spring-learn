@@ -28,5 +28,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .passwordCompare()
                 .passwordEncoder(new LdapShaPasswordEncoder())
-                .passwordAttribute("userPassword");    }
+                .passwordAttribute("userPassword");
+    }
 }
