@@ -34,8 +34,8 @@ public class Person {
         teammates.add(person);
     }
 
+    @Override
     public String toString() {
-
         return this.name + "'s teammates => "
                 + Optional.ofNullable(this.teammates).orElse(
                 Collections.emptySet()).stream()
